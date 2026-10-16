@@ -1,21 +1,18 @@
 # Duck-Clock
 
+A static browser clock that shows the local time with duck drawings instead of digits. Hours, minutes, and seconds each render as two images (`images/V1` through `images/V3`), and the display refreshes every second. A dropdown switches between the three art sets.
 
+### How to run
 
-### Description
+No install or build step. From this folder, open `index.html` in a browser:
 
-This amazing Projekt uses ducks instead of numbers to tell the time.
+```bash
+python3 -m http.server
+```
 
-
-
-### How to use
-
-![image](https://github.com/user-attachments/assets/6d8b9522-a673-4d3f-a7e8-625b8c544b50)
-
-
+Then visit [http://localhost:8000](http://localhost:8000). Opening `index.html` directly works as well.
 
 ### Credits
 
 - The art was created by **Lukic Lazar**
-
 - The code was written by **Altorfer Aimo**
